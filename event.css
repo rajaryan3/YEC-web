@@ -12,6 +12,15 @@ p {
     padding: 0.5rem 10rem;
 }
 
+@media (max-width : 690px){
+    p {
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+        padding: 0.5rem 2rem;
+    }    
+}
+
 header {
     background-color: transparent;
     text-align: center;

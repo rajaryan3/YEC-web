@@ -98,6 +98,29 @@ body {
   transform: translate(-50%);
 }
 
+@media (max-width: 500px){
+  .dots-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .text {
+    color: #f2f2f2;
+    background-color: rgba(10, 10, 20, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 7px 7px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+}
+
 /* The dots/bullets/indicators */
 .dots {
   cursor: pointer;
@@ -151,14 +174,6 @@ body {
   padding-left: 2rem;
 }
 
-/* ul {
-  list-style-type: none;
-  width: 400px;
-  display: flex;
-  font-weight: bolder;
-  justify-content: space-between;
-  align-items: baseline;
-} */
 
 ul {
   list-style-type: none;
